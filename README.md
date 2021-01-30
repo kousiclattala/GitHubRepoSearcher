@@ -1,27 +1,38 @@
 # GithubLoginFirebase
 
+## About
+
+This is a GitHub Searcher APP, using Github API.
+
+## Topics Used/Learned
+
+- Google `Firebase`(for authentication).
+- Angular Routing
+- Angular Fire (open-source repo) to use angular in firebase.
+- Change Detection,using `ChangeDetectorRef` method which was given by `@angular/core`,when there is a data transfer from Parent Component to Grandchild Component .
+- Basic debugging
+
+## Project Images
+
+- SignIn Page.
+  ![](./images/signin.jpg)
+
+- HomePage.
+  ![](./images/homepage.jpg)
+
+- Searched User GitHub Repo Data in HomePage.
+  ![](./images/userdata-homepage.jpg)
+
+- Un-Authorized Access Page (when user enters a wrong url this page will be displayed).
+  ![](./images/pagenotfound.jpg)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Note:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- To run this project, after cloning into your computer run `npm install`, it will install all the required dependencies.
+- To run the server, execute the command mentioned in `Development server` above.
