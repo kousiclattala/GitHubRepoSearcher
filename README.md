@@ -36,3 +36,4 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 - To run this project, after cloning into your computer run `npm install`, it will install all the required dependencies.
 - To run the server, execute the command mentioned in `Development server` above.
+- Include Your Firebase Details in `environment.ts` file located at `src/environments/environment.ts`. So that you can use firebase auth service.
